@@ -28,6 +28,9 @@ public class AGMIntegrationConnectorV2 extends AGMIntegrationConnector {
 				new LineBreaker(),
 				new PlainText(AgmConstants.APP_CLIENT_ID, "CLIENT_ID", "","", true),
                 new PasswordText(AgmConstants.APP_CLIENT_SECRET, "CLIENT_SECRET", "", "", true),
+				new LineBreaker(),
+                new PlainText(AgmConstants.KEY_USERNAME, "USERNAME", "","", true),
+                new PasswordText(AgmConstants.KEY_PASSWORD, "PASSWORD", "", "", true),
 		});
 	}
 
